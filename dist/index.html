@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body >
+<!-- partial:index.partial.html -->
+<header class="ui-menu --stretch">
+  <a href="/" class="ui-menu-label"><svg class="icon-stroke"><use xlink:href="#logo"></use></svg></a>
+  <label aria-label="Toggle flyout menu">
+    <input type="checkbox" data-sr>
+    <ui-icon type="burger-menu" size="xl"></ui-icon>
+  </label>
+  <div class="ui-menu-flyout">
+    <nav>
+        <label class="ui-menu-overlay">
+          <input type="radio" name="menu" id="menu-overlay" data-sr checked>
+        </label>
+        
+        <label class="ui-menu-label">
+          <input type="radio" name="menu" data-sr>
+          Products<ui-icon type="chevron down"></ui-icon>
+        </label>
+        <div class="ui-menu-expand">
+          <div class="ui-menu-panel ui-column --md-c-3">
+            <nav>
+              <strong>Category 1</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Category 2</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Category 3</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+          </div>
+        </div>
+      
+        <label class="ui-menu-label">
+          <input type="radio" name="menu" data-sr>
+          Shop<ui-icon type="chevron down"></ui-icon>
+        </label>
+        <div class="ui-menu-expand">
+          <div class="ui-menu-panel ui-column --md-c-3">
+            <nav>
+              <strong>Shop 1</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Shop 2</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Category 3</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+          </div>
+        </div>
+    
+      <a href="#news" class="ui-menu-label">News</a>
+      <a href="#support" class="ui-menu-label">Support</a>
+      <a href="#company" class="ui-menu-label">Company</a>
+    </nav>
+    <nav>
+      <a href="#search" class="ui-menu-label"><svg class="icon-stroke"><use xlink:href="#search"></use></svg>Search</a>
+      <a href="#cart" class="ui-menu-label"><svg class="icon-stroke"><use xlink:href="#shopping-bag"></use></svg>Cart</a>
+    </nav>
+  </div>
+</header>
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="shopping-bag" viewBox="0 0 24 24">
+      <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z"></path>
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5"></path>
+    </symbol>
+    <symbol id="search" viewBox="0 0 24 24">
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+      <path d="M21 21l-6 -6"></path>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 512 512" fill="currentColor">
+      <path d="M193.431 261.016h125.138l-6.507 73.394L256 348.67l-56.062-14.26-3.879-43.707h-57.203l7.886 88.98L256 407.465l109.262-27.782 15.141-170.895H188.801l-5.061-57.106h201.727l5.053-56.986H121.481l14.743 166.32z"/>
+      <path d="m20.366 0 .984 10.627 41.882 452.361L256 512l192.767-49.012L491.634 0H20.366zm382.139 423.462L256 460.713l-146.505-37.251L74.888 49.711h362.223l-34.606 373.751z"/>
+    </symbol>
+  </defs>
+</svg>
+<!--- pagina -->
+<div id="parallax-world-of-ugg">
+<section>
+  <div class="title">
+    <h3>live on the streets</h3>
+    <h1>𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛</h1>
+  </div>
+</section>
+
+<section>
+    <div class="parallax-one">
+      <h2> O STREETWEAR E SUA RELAÇÃO COM A MODA DE LUXO</h2>
+    </div>
+</section>
+
+<section>
+  <div class="block">
+    <p><span class="first-character sc">𝙰</span> 𝚖𝚘𝚍𝚊 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚎𝚜𝚝𝚊́ 𝚜𝚎 𝚝𝚘𝚛𝚗𝚊𝚗𝚍𝚘 𝚖𝚊𝚒𝚜 𝚊𝚌𝚎𝚜𝚜𝚒́𝚟𝚎𝚕 𝚎 𝚌𝚘𝚗𝚟𝚎𝚛𝚐𝚒𝚗𝚍𝚘 𝚌𝚘𝚖 𝚊 𝚖𝚘𝚍𝚊 𝚍𝚎 𝚛𝚞𝚊. 𝙰 𝚍𝚒𝚜𝚝𝚒𝚗𝚌̧𝚊̃𝚘 𝚎𝚗𝚝𝚛𝚎 𝚘𝚜 𝚍𝚘𝚒𝚜 𝚎𝚜𝚝𝚊́ 𝚍𝚒𝚖𝚒𝚗𝚞𝚒𝚗𝚍𝚘, 𝚛𝚎𝚜𝚞𝚕𝚝𝚊𝚗𝚍𝚘 𝚎𝚖 𝚞𝚖𝚊 𝚏𝚞𝚜𝚊̃𝚘 𝚍𝚎 𝚎𝚜𝚝𝚒𝚕𝚘𝚜 𝚎 𝚞𝚖𝚊 𝚍𝚎𝚖𝚘𝚌𝚛𝚊𝚝𝚒𝚣𝚊𝚌̧𝚊̃𝚘 𝚍𝚊 𝚖𝚘𝚍𝚊. 𝙰 𝚒𝚗𝚏𝚕𝚞𝚎̂𝚗𝚌𝚒𝚊 𝚍𝚊𝚜 𝚛𝚎𝚍𝚎𝚜 𝚜𝚘𝚌𝚒𝚊𝚒𝚜 𝚎 𝚍𝚊 𝚌𝚞𝚕𝚝𝚞𝚛𝚊 𝚍𝚘 𝚌𝚘𝚖𝚙𝚊𝚛𝚝𝚒𝚕𝚑𝚊𝚖𝚎𝚗𝚝𝚘 𝚎𝚜𝚝𝚊́ 𝚍𝚎𝚜𝚎𝚖𝚙𝚎𝚗𝚑𝚊𝚗𝚍𝚘 𝚞𝚖 𝚙𝚊𝚙𝚎𝚕 𝚒𝚖𝚙𝚘𝚛𝚝𝚊𝚗𝚝𝚎 𝚗𝚎𝚜𝚜𝚊 𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚊𝚌̧𝚊̃𝚘. 𝙰 𝚖𝚘𝚍𝚊 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚗𝚊̃𝚘 𝚎́ 𝚖𝚊𝚒𝚜 𝚎𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚊 𝚙𝚊𝚛𝚊 𝚎𝚕𝚒𝚝𝚎𝚜, 𝚎 𝚊 𝚍𝚒𝚟𝚎𝚛𝚜𝚒𝚍𝚊𝚍𝚎 𝚎𝚜𝚝𝚊́ 𝚜𝚎 𝚝𝚘𝚛𝚗𝚊𝚗𝚍𝚘 𝚞𝚖𝚊 𝚌𝚊𝚛𝚊𝚌𝚝𝚎𝚛𝚒́𝚜𝚝𝚒𝚌𝚊 𝚌𝚎𝚗𝚝𝚛𝚊𝚕 𝚍𝚊 𝚖𝚘𝚍𝚊 𝚌𝚘𝚗𝚝𝚎𝚖𝚙𝚘𝚛𝚊̂𝚗𝚎𝚊.
+    </p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">𝙲𝚊𝚍𝚊 𝚟𝚎𝚣 𝚖𝚊𝚒𝚜 𝚊𝚜 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚏𝚕𝚎𝚛𝚝𝚊𝚖 𝚌𝚘𝚖 𝚊 𝚎𝚜𝚝𝚎́𝚝𝚒𝚌𝚊 𝚚𝚞𝚎 𝚟𝚎𝚖 𝚍𝚊𝚜 𝚛𝚞𝚊𝚜. 𝚁𝚎𝚜𝚞𝚕𝚝𝚊𝚗𝚍𝚘 𝚎𝚖 𝚞𝚖 𝚎𝚜𝚝𝚒𝚕𝚘 𝚞𝚛𝚋𝚊𝚗𝚘 𝚑𝚒𝚐𝚑-𝚎𝚗𝚍, 𝚚𝚞𝚎 𝚊𝚕𝚐𝚞𝚗𝚜 𝚌𝚑𝚊𝚖𝚊𝚖 𝚍𝚎 𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛 𝚍𝚎 𝚕𝚞𝚡𝚘. 𝙴 𝚊𝚝𝚞𝚊𝚕𝚖𝚎𝚗𝚝𝚎 𝚎́ 𝚒𝚜𝚜𝚘 𝚚𝚞𝚎 𝚟𝚎𝚖 𝚏𝚊𝚣𝚎𝚗𝚍𝚘 𝚊 𝚌𝚊𝚋𝚎𝚌̧𝚊 𝚍𝚘𝚜 𝚒𝚗𝚏𝚕𝚞𝚎𝚗𝚌𝚒𝚊𝚍𝚘𝚛𝚎𝚜 𝚎 𝚏𝚊𝚜𝚑𝚒𝚘𝚗𝚒𝚜𝚝𝚊𝚜 𝚖𝚞𝚗𝚍𝚘 𝚊 𝚏𝚘𝚛𝚊. 𝙲𝚘𝚗𝚝𝚒𝚗𝚞𝚎 𝚊 𝚕𝚎𝚒𝚝𝚞𝚛𝚊 𝚙𝚊𝚛𝚊 𝚜𝚊𝚋𝚎𝚛 𝚝𝚞𝚍𝚘 𝚜𝚘𝚋𝚛𝚎 𝚘 𝚊𝚜𝚜𝚞𝚗𝚝𝚘.</p>
+  </div>
+</section>
+
+<section>
+  <div class="parallax-two">
+    <h2>𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙲̧𝙰̃𝙾</h2>
+  </div>
+</section>
+
+<section>
+  <div class="block">
+    <p><span class="first-character ny">C</span>𝙰𝚜 𝚌𝚘𝚕𝚊𝚋𝚘𝚛𝚊𝚌̧𝚘̃𝚎𝚜 𝚎𝚗𝚝𝚛𝚎 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚎 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛 𝚜𝚎 𝚝𝚘𝚛𝚗𝚊𝚛𝚊𝚖 𝚌𝚘𝚖𝚞𝚗𝚜. 𝙿𝚊𝚛𝚌𝚎𝚛𝚒𝚊𝚜 𝚎𝚗𝚝𝚛𝚎 𝚐𝚒𝚐𝚊𝚗𝚝𝚎𝚜 𝚍𝚊 𝚖𝚘𝚍𝚊 𝚍𝚎 𝚕𝚞𝚡𝚘, 𝚌𝚘𝚖𝚘 𝙻𝚘𝚞𝚒𝚜 𝚅𝚞𝚒𝚝𝚝𝚘𝚗 𝚎 𝚂𝚞𝚙𝚛𝚎𝚖𝚎, 𝚘𝚞 𝙳𝚒𝚘𝚛 𝚎 𝙹𝚘𝚛𝚍𝚊𝚗 𝙱𝚛𝚊𝚗𝚍, 𝚐𝚎𝚛𝚊𝚛𝚊𝚖 𝚐𝚛𝚊𝚗𝚍𝚎 𝚎𝚗𝚝𝚞𝚜𝚒𝚊𝚜𝚖𝚘 𝚎𝚗𝚝𝚛𝚎 𝚘𝚜 𝚌𝚘𝚗𝚜𝚞𝚖𝚒𝚍𝚘𝚛𝚎𝚜.</p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">𝙰𝚜 𝚌𝚘𝚕𝚊𝚋𝚘𝚛𝚊𝚌̧𝚘̃𝚎𝚜 𝚎𝚗𝚝𝚛𝚎 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚎 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛 𝚜𝚎 𝚝𝚘𝚛𝚗𝚊𝚛𝚊𝚖 𝚞𝚖𝚊 𝚍𝚊𝚜 𝚝𝚎𝚗𝚍𝚎̂𝚗𝚌𝚒𝚊𝚜 𝚖𝚊𝚒𝚜 𝚖𝚊𝚛𝚌𝚊𝚗𝚝𝚎𝚜 𝚎 𝚕𝚞𝚌𝚛𝚊𝚝𝚒𝚟𝚊𝚜 𝚍𝚊 𝚒𝚗𝚍𝚞́𝚜𝚝𝚛𝚒𝚊 𝚍𝚊 𝚖𝚘𝚍𝚊 𝚗𝚊𝚜 𝚞́𝚕𝚝𝚒𝚖𝚊𝚜 𝚍𝚎́𝚌𝚊𝚍𝚊𝚜. 𝙴𝚜𝚜𝚊𝚜 𝚙𝚊𝚛𝚌𝚎𝚛𝚒𝚊𝚜 𝚛𝚎𝚞́𝚗𝚎𝚖 𝚍𝚞𝚊𝚜 𝚏𝚘𝚛𝚌̧𝚊𝚜 𝚌𝚛𝚒𝚊𝚝𝚒𝚟𝚊𝚜 𝚍𝚒𝚜𝚝𝚒𝚗𝚝𝚊𝚜, 𝚝𝚛𝚊𝚣𝚎𝚗𝚍𝚘 𝚌𝚘𝚗𝚜𝚒𝚐𝚘 𝚞𝚖𝚊 𝚖𝚒𝚜𝚝𝚞𝚛𝚊 𝚍𝚎 𝚎𝚜𝚝𝚒𝚕𝚘𝚜, 𝚌𝚞𝚕𝚝𝚞𝚛𝚊𝚜 𝚎 𝚙𝚞́𝚋𝚕𝚒𝚌𝚘𝚜-𝚊𝚕𝚟𝚘 𝚚𝚞𝚎 𝚏𝚛𝚎𝚚𝚞𝚎𝚗𝚝𝚎𝚖𝚎𝚗𝚝𝚎 𝚛𝚎𝚜𝚞𝚕𝚝𝚊 𝚎𝚖 𝚙𝚛𝚘𝚍𝚞𝚝𝚘𝚜 𝚎𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚘𝚜 𝚎 𝚊𝚕𝚝𝚊𝚖𝚎𝚗𝚝𝚎 𝚌𝚘𝚋𝚒𝚌̧𝚊𝚍𝚘𝚜. 𝙰𝚚𝚞𝚒 𝚎𝚜𝚝𝚊̃𝚘 𝚊𝚕𝚐𝚞𝚗𝚜 𝚍𝚎𝚝𝚊𝚕𝚑𝚎𝚜 𝚜𝚘𝚋𝚛𝚎 𝚎𝚜𝚜𝚊 𝚝𝚎𝚗𝚍𝚎̂𝚗𝚌𝚒𝚊:</p>
+  </div>
+</section>
+
+<section>
+  <div class="parallax-three">
+    <h2>𝚂𝚄𝚂𝚃𝙴𝙽𝚃𝙰𝙱𝙸𝙻𝙸𝙳𝙰𝙳𝙴</h2>
+  </div>
+</section>
+
+<section>
+  <div class="block">
+    <p><span class="first-character atw">A</span>𝚌𝚛𝚎𝚜𝚌𝚎𝚗𝚝𝚎 𝚙𝚛𝚎𝚘𝚌𝚞𝚙𝚊𝚌̧𝚊̃𝚘 𝚌𝚘𝚖 𝚊 𝚜𝚞𝚜𝚝𝚎𝚗𝚝𝚊𝚋𝚒𝚕𝚒𝚍𝚊𝚍𝚎 𝚗𝚊 𝚒𝚗𝚍𝚞́𝚜𝚝𝚛𝚒𝚊 𝚍𝚊 𝚖𝚘𝚍𝚊 𝚝𝚎𝚖 𝚒𝚖𝚙𝚞𝚕𝚜𝚒𝚘𝚗𝚊𝚍𝚘 𝚖𝚞𝚍𝚊𝚗𝚌̧𝚊𝚜 𝚜𝚒𝚐𝚗𝚒𝚏𝚒𝚌𝚊𝚝𝚒𝚟𝚊𝚜 𝚗𝚊𝚜 𝚙𝚛𝚊́𝚝𝚒𝚌𝚊𝚜 𝚍𝚊𝚜 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚕𝚞𝚡𝚘. 𝙿𝚊𝚛𝚊 𝚊𝚝𝚎𝚗𝚍𝚎𝚛 𝚊̀𝚜 𝚍𝚎𝚖𝚊𝚗𝚍𝚊𝚜 𝚍𝚘𝚜 𝚌𝚘𝚗𝚜𝚞𝚖𝚒𝚍𝚘𝚛𝚎𝚜 𝚌𝚘𝚗𝚜𝚌𝚒𝚎𝚗𝚝𝚎𝚜 𝚎 𝚛𝚎𝚍𝚞𝚣𝚒𝚛 𝚜𝚎𝚞 𝚒𝚖𝚙𝚊𝚌𝚝𝚘 𝚊𝚖𝚋𝚒𝚎𝚗𝚝𝚊𝚕, 𝚖𝚞𝚒𝚝𝚊𝚜 𝚍𝚎𝚜𝚜𝚊𝚜 𝚖𝚊𝚛𝚌𝚊𝚜 𝚝𝚎̂𝚖 𝚊𝚍𝚘𝚝𝚊𝚍𝚘 𝚎𝚕𝚎𝚖𝚎𝚗𝚝𝚘𝚜 𝚍𝚘 𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛, 𝚌𝚘𝚖𝚘 𝚞𝚙𝚌𝚢𝚌𝚕𝚒𝚗𝚐 𝚎 𝚛𝚘𝚞𝚙𝚊𝚜 𝚖𝚞𝚕𝚝𝚒𝚏𝚞𝚗𝚌𝚒𝚘𝚗𝚊𝚒𝚜. 𝙴𝚜𝚜𝚊𝚜 𝚙𝚛𝚊́𝚝𝚒𝚌𝚊𝚜 𝚛𝚎𝚙𝚛𝚎𝚜𝚎𝚗𝚝𝚊𝚖 𝚞𝚖𝚊 𝚊𝚋𝚘𝚛𝚍𝚊𝚐𝚎𝚖 𝚖𝚊𝚒𝚜 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚊́𝚟𝚎𝚕 𝚎 𝚒𝚗𝚘𝚟𝚊𝚍𝚘𝚛𝚊 𝚎𝚖 𝚛𝚎𝚕𝚊𝚌̧𝚊̃𝚘 𝚊̀ 𝚙𝚛𝚘𝚍𝚞𝚌̧𝚊̃𝚘 𝚍𝚎 𝚖𝚘𝚍𝚊 𝚍𝚎 𝚕𝚞𝚡𝚘. 𝚅𝚊𝚖𝚘𝚜 𝚎𝚡𝚙𝚕𝚘𝚛𝚊𝚛 𝚖𝚊𝚒𝚜 𝚊 𝚏𝚞𝚗𝚍𝚘 𝚎𝚜𝚜𝚎𝚜 𝚊𝚜𝚙𝚎𝚌𝚝𝚘𝚜:</p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">𝚄𝚙𝚌𝚢𝚌𝚕𝚒𝚗𝚐 𝚎 𝚁𝚎𝚞𝚝𝚒𝚕𝚒𝚣𝚊𝚌̧𝚊̃𝚘 𝚍𝚎 𝙼𝚊𝚝𝚎𝚛𝚒𝚊𝚒𝚜: 𝙾 𝚞𝚙𝚌𝚢𝚌𝚕𝚒𝚗𝚐 𝚎𝚗𝚟𝚘𝚕𝚟𝚎 𝚊 𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚊𝚌̧𝚊̃𝚘 𝚍𝚎 𝚖𝚊𝚝𝚎𝚛𝚒𝚊𝚒𝚜 𝚍𝚎𝚜𝚌𝚊𝚛𝚝𝚊𝚍𝚘𝚜 𝚘𝚞 𝚛𝚘𝚞𝚙𝚊𝚜 𝚊𝚗𝚝𝚒𝚐𝚊𝚜 𝚎𝚖 𝚗𝚘𝚟𝚊𝚜 𝚙𝚎𝚌̧𝚊𝚜 𝚍𝚎 𝚖𝚘𝚍𝚊. 𝙰𝚜 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚎𝚜𝚝𝚊̃𝚘 𝚌𝚘𝚖𝚎𝚌̧𝚊𝚗𝚍𝚘 𝚊 𝚊𝚋𝚛𝚊𝚌̧𝚊𝚛 𝚎𝚜𝚜𝚊 𝚊𝚋𝚘𝚛𝚍𝚊𝚐𝚎𝚖, 𝚍𝚊𝚗𝚍𝚘 𝚗𝚘𝚟𝚊 𝚟𝚒𝚍𝚊 𝚊 𝚝𝚎𝚌𝚒𝚍𝚘𝚜, 𝚌𝚘𝚞𝚛𝚘𝚜 𝚎 𝚘𝚞𝚝𝚛𝚘𝚜 𝚖𝚊𝚝𝚎𝚛𝚒𝚊𝚒𝚜 𝚍𝚎 𝚊𝚕𝚝𝚊 𝚚𝚞𝚊𝚕𝚒𝚍𝚊𝚍𝚎. 𝙸𝚜𝚜𝚘 𝚗𝚊̃𝚘 𝚊𝚙𝚎𝚗𝚊𝚜 𝚛𝚎𝚍𝚞𝚣 𝚘 𝚍𝚎𝚜𝚙𝚎𝚛𝚍𝚒́𝚌𝚒𝚘, 𝚖𝚊𝚜 𝚝𝚊𝚖𝚋𝚎́𝚖 𝚌𝚛𝚒𝚊 𝚙𝚎𝚌̧𝚊𝚜 𝚞́𝚗𝚒𝚌𝚊𝚜 𝚎 𝚎𝚡𝚌𝚕𝚞𝚜𝚒𝚟𝚊𝚜. 𝙿𝚘𝚛 𝚎𝚡𝚎𝚖𝚙𝚕𝚘, 𝚊𝚕𝚐𝚞𝚖𝚊𝚜 𝚖𝚊𝚛𝚌𝚊𝚜 𝚍𝚎 𝚕𝚞𝚡𝚘 𝚎𝚜𝚝𝚊̃𝚘 𝚛𝚎𝚞𝚝𝚒𝚕𝚒𝚣𝚊𝚗𝚍𝚘 𝚋𝚘𝚕𝚜𝚊𝚜 𝚟𝚒𝚗𝚝𝚊𝚐𝚎 𝚙𝚊𝚛𝚊 𝚌𝚛𝚒𝚊𝚛 𝚗𝚘𝚟𝚘𝚜 𝚍𝚎𝚜𝚒𝚐𝚗𝚜, 𝚒𝚗𝚌𝚘𝚛𝚙𝚘𝚛𝚊𝚗𝚍𝚘 𝚎𝚕𝚎𝚖𝚎𝚗𝚝𝚘𝚜 𝚍𝚘 𝚜𝚝𝚛𝚎𝚎𝚝𝚠𝚎𝚊𝚛, 𝚌𝚘𝚖𝚘 𝚙𝚊𝚝𝚌𝚑𝚎𝚜 𝚎 𝚐𝚛𝚊𝚏𝚒𝚝𝚎𝚜, 𝚙𝚊𝚛𝚊 𝚞𝚖 𝚟𝚒𝚜𝚞𝚊𝚕 𝚌𝚘𝚗𝚝𝚎𝚖𝚙𝚘𝚛𝚊̂𝚗𝚎𝚘 𝚎 𝚜𝚞𝚜𝚝𝚎𝚗𝚝𝚊́𝚟𝚎𝚕.</p>
+  </div>
+</section>
+  
+
+</div>
+<!-- partial -->
+<body class="moda">
+  <ul class="card-list">
+	
+    <li class="card">
+      <a class="card-image"   style="background-image: url(/img/look-streetwear-com-moletom.jpg);" >
+        <img src="/img/look-streetwear-com-moletom.jpg" alt="let's go" />
+      </a>
+        <h2>let's go</h2>
+        <p>In Love With A Ghost</p>
+      </a>
+    </li>
+    
+    <li class="card">
+      <a class="card-image"   style="background-image: url(/img/look-streetwear-com-moletom.jpg);" >
+        <img src="/img/look-streetwear-com-moletom.jpg" alt="let's go" />
+      </a>
+        <h2>let's go</h2>
+        <p>In Love With A Ghost</p>
+      </a>
+    </li>
+    
+    <li class="card">
+      <a class="card-image"   style="background-image: url(/img/look-streetwear-com-moletom.jpg);" >
+        <img src="/img/look-streetwear-com-moletom.jpg" alt="let's go" />
+      </a>
+        <h2>let's go</h2>
+        <p>In Love With A Ghost</p>
+      </a>
+    </li>
+    
+    <li class="card">
+      <a class="card-image"   style="background-image: url(/img/look-streetwear-com-moletom.jpg);" >
+        <img src="/img/look-streetwear-com-moletom.jpg" alt="let's go" />
+      </a>
+        <h2>let's go</h2>
+        <p>In Love With A Ghost</p>
+      </a>
+    </li>
+    
+  </ul>
+
+  <div class="nomeA">
+    <div class="typing-demo">
+      This is a typing demo.
+    </div>
+</div> 
+  
+</body>
+
+          </div>
+          <!--end footer col-->
+          <footer class="fort">
+            <div class="container-footer">
+                <div class="row-footer">
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#"> Quem somos </a></li>
+                            <li><a href=""> nossos serviços </a></li>
+                            <li><a href=""> política de privacidade </a></li>
+                            <li><a href=""> programa de afiliados</a></li>
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Obter ajuda</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Transporte</a></li>
+                            <li><a href="#">devoluções</a></li>
+                            <li><a href="#">Status De Pedido</a></li>
+                            <li><a href="#">Opções De Pagamento</a></li>
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Loja online</h4>
+                        <ul>
+                            <li><a href="#">Relógio</a></li>
+                            <li><a href="#">Saco</a></li>
+                            <li><a href="#">Calçado</a></li>
+                            <li><a href="#">Endereço</a></li>
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Se subescreva!</h4>
+                        <div class="form-sub">
+                            <form>
+                                <input type="email" placeholder="Digite o seu e-mail" required>
+                                <button>subscrever</button>
+                            </form>
+                        </div>
+          
+                      
+                        <div class="medias-socias">
+                            <a img src="/img/img1.jpeg" href="#"> <i class="fa fa-facebook"></i> </a>
+                            <a href="#"> <i class="fa fa-instagram"></i> </a>
+                            <a href="#"> <i class="fa fa-twitter"></i> </a>
+                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                        </div> 
+
+                      
+      </div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
